@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.641632b1.css",
-    "main.js": "/static/js/main.4b03de5a.js",
-    "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
-    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
-    "static/media/kathyresume.pdf": "/static/media/kathyresume.0cc3aca92ee513da6978.pdf",
-    "static/media/home-bg.jpg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
-    "static/media/salary.png": "/static/media/salary.c6cb0764c158c065841e.png",
-    "static/media/number.png": "/static/media/number.de9921a67d07149eb973.png",
-    "static/media/bank.png": "/static/media/bank.8fe7b18c64614c7e7bc7.png",
-    "static/media/onlineshop.png": "/static/media/onlineshop.19b0da1df72e9a9b6a78.png",
-    "static/media/resume.png": "/static/media/resume.d3c852113e46e9dc1739.png",
-    "static/media/avatar.svg": "/static/media/avatar.01dee1cba6c1ea3c5743b4e63b6b4abf.svg",
-    "static/media/medical.png": "/static/media/medical.ca8a658db2b868292858.png",
-    "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
-    "index.html": "/index.html",
-    "main.641632b1.css.map": "/static/css/main.641632b1.css.map",
-    "main.4b03de5a.js.map": "/static/js/main.4b03de5a.js.map",
-    "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
-    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/Portfolio-master/static/css/main.df15232d.css",
+    "main.js": "/Portfolio-master/static/js/main.b14869ad.js",
+    "static/js/415.4d6acbeb.chunk.js": "/Portfolio-master/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Portfolio-master/static/js/787.1ed0c42c.chunk.js",
+    "static/media/kathyresume.pdf": "/Portfolio-master/static/media/kathyresume.0cc3aca92ee513da6978.pdf",
+    "static/media/home-bg.jpg": "/Portfolio-master/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/salary.png": "/Portfolio-master/static/media/salary.c6cb0764c158c065841e.png",
+    "static/media/number.png": "/Portfolio-master/static/media/number.de9921a67d07149eb973.png",
+    "static/media/bank.png": "/Portfolio-master/static/media/bank.8fe7b18c64614c7e7bc7.png",
+    "static/media/onlineshop.png": "/Portfolio-master/static/media/onlineshop.19b0da1df72e9a9b6a78.png",
+    "static/media/resume.png": "/Portfolio-master/static/media/resume.d3c852113e46e9dc1739.png",
+    "static/media/avatar.svg": "/Portfolio-master/static/media/avatar.01dee1cba6c1ea3c5743b4e63b6b4abf.svg",
+    "static/media/medical.png": "/Portfolio-master/static/media/medical.ca8a658db2b868292858.png",
+    "static/media/pre.svg": "/Portfolio-master/static/media/pre.d4812f51c8c80976eaab.svg",
+    "index.html": "/Portfolio-master/index.html",
+    "main.df15232d.css.map": "/Portfolio-master/static/css/main.df15232d.css.map",
+    "main.b14869ad.js.map": "/Portfolio-master/static/js/main.b14869ad.js.map",
+    "415.4d6acbeb.chunk.js.map": "/Portfolio-master/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Portfolio-master/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.641632b1.css",
-    "static/js/main.4b03de5a.js"
+    "static/css/main.df15232d.css",
+    "static/js/main.b14869ad.js"
   ]
 }
