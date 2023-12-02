@@ -1,10 +1,10 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-import Particle from "../Particle";
+
 import leaf from "../../Assets/Projects/onlineshop.png";
 import emotion from "../../Assets/Projects/resume.png";
-import editor from "../../Assets/Projects/bank.png";
+import editor from "./BankProjects/bank.png";
 import salary from "../../Assets/Projects/salary.png";
 import suicide from "../../Assets/Projects/number.png";
 import bitsOfCode from "../../Assets/Projects/medical.png";
@@ -20,7 +20,7 @@ import {
 function Projects() {
   return (
     <Container fluid className="project-section">
-      <Particle />
+      
       <Container>
         <h1 className="project-heading">
           My Recent <strong className="purple">Works </strong>

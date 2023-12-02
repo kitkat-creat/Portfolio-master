@@ -47,24 +47,30 @@ function NavBar() {
           <span></span>
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
+        <h3 style={{color: "white"}}>Kathareeya Atthajaroon</h3>
           <Nav className="ms-auto" defaultActiveKey="#home" acti>
             <Nav.Item>
-              <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)} activeStyle={{ color:'#5754a8' }}>
+              
+              <NavLink as={Link} to="/" onClick={() => updateExpanded(false)} exact activeClassName="active" style={{color:"white"}}>
                 <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
-              </Nav.Link>
+              </NavLink>
+              <NavLink as={Link} to="/bankprojects" onClick={() => updateExpanded(false)} exact activeClassName="active">
+                {/* <AiOutlineHome style={{ marginBottom: "2px" }} /> Home */}
+              </NavLink>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
+              <NavLink
                 as={Link}
                 to="/about"
-                onClick={() => updateExpanded(false)}
+                onClick={() => updateExpanded(false)} 
+                exact activeClassName="active" style={{color:"white"}}
               >
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> About
-              </Nav.Link>
+              </NavLink>
             </Nav.Item>
 
-            <Nav.Item>
+            {/* <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/project"
@@ -75,21 +81,21 @@ function NavBar() {
                 />{" "}
                 Projects
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
 
             <Nav.Item>
-              <Nav.Link
+              <NavLink
                 as={Link}
                 to="/resume"
-                onClick={() => updateExpanded(false)}
+                onClick={() => updateExpanded(false)} exact activeClassName="active" style={{color:"white"}}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
-              </Nav.Link>
+                <CgFileDocument style={{ marginBottom: "2px" }} /> Contacts
+              </NavLink>
             </Nav.Item>
 
             
 
-            <Nav.Item>
+            {/* <Nav.Item>
               <Nav.Link
                 href="https://github.com/kitkat-creat"
                 target="_blank"
@@ -98,7 +104,7 @@ function NavBar() {
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Github
               </Nav.Link> 
               
-            </Nav.Item>
+            </Nav.Item> */}
           </Nav>
         </Navbar.Collapse>
       </Container>

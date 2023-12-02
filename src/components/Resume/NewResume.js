@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/SWERESUME.pdf";
+
+import pdf from "../../Assets/../Assets/Kathareeya_SW_Resume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -18,14 +18,22 @@ function ResumeNew() {
   return (
     <div>
       <Container fluid className="resume-section">
-        <Particle />
-        <Row style={{ justifyContent: "center", position: "relative" }}>
+       
+        <Row style={{ justifyContent: "center", position: "relative",color:"black" }}>
+        <h1 style={{ fontSize: "2.1em", paddingBottom: "20px"}}>
+              Contacts 
+            </h1>
+        <p style={{ color: "black" }}>Interested in an Internship, Part-time, or Full-time UI/UX Designer, Front-end developer position.
+<br/>Location: Open to Los Angeles or remote opportunities.
+<br/>Resume:</p>
           <Button
             variant="primary"
             href={pdf}
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
+           
+
             <AiOutlineDownload />
             &nbsp;Download CV
           </Button>
